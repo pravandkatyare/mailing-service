@@ -23,8 +23,18 @@ for sending mails and is open for integrating some other mailing services like A
         "des": {
             "to": [{ 
                 "id": "test@test.com",
+                "name": "Test"
+            }],
+            // optional
+            "cc": [{ 
+                "id": "test1@test.com",
+                "name": "Test1"
+            }],
+            // optional
+            "bcc": [{
+                "id": "test2@gmail.com",
                 "name": "Test2"
-            }]
+            }]  
         },
         "subject": "Your email subject",
         "textBody": "Your email body",
@@ -32,6 +42,7 @@ for sending mails and is open for integrating some other mailing services like A
     }]
 }
 ```
+* Client code: MJ(MailJet), SES(Amazon SES), SG(SendGrid)
 
 ### Response Object
 
