@@ -63,7 +63,7 @@ func getRecipientObject(destinationObj mail.Destination) (*mailjet.RecipientsV31
 
 	// for BCC recipients
 	var bccRecipients mailjet.RecipientsV31
-	if len(destinationObj.CC) > 0 {
+	if len(destinationObj.BCC) > 0 {
 		for _, destination := range destinationObj.BCC {
 			bccRecipients = append(bccRecipients, getRecipient(destination))
 		}
