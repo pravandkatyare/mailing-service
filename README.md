@@ -26,9 +26,9 @@ for sending mails and is open for integrating some other mailing services like A
                 "name": "Test2"
             }]
         },
-        "subject": "Test email",
-        "textBody": "This is test body",
-        "HTMLBody": "Test HTMLBody"
+        "subject": "Your email subject",
+        "textBody": "Your email body",
+        "HTMLBody": "Your email's HTMLBody" (optional)
     }]
 }
 ```
