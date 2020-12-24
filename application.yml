@@ -1,0 +1,11 @@
+port: 8888
+
+# header api key for authorization or 
+# else it will pick default api-key (x-default)
+header: 
+  api-key: 
+
+# Mailjet registered email id and name
+mailjet:
+  email: 
+  name: 
