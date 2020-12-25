@@ -3,7 +3,6 @@ package mjclient
 import (
 	mailjet "github.com/mailjet/mailjet-apiv3-go"
 	"github.com/pravandkatyare/mailing-service/logging"
-	"github.com/pravandkatyare/mailing-service/mail"
 )
 
 const (
@@ -16,7 +15,7 @@ type MJClient struct {
 }
 
 // Send function has business logic to send mail using MailJet
-func (m MJClient) Send(mail *mail.Mail) ([]string, error) {
+func (m MJClient) Send() ([]string, error) {
 	logging.Infof("In MJClient: Send(), sending mail through Mail Jet")
 
 	mailjetClient := mailjet.NewMailjetClient(getPublicKey(), getPrivateKey())

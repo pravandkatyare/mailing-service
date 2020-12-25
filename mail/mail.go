@@ -1,8 +1,8 @@
 package mail
 
-// MailAgent interface
-type MailAgent interface {
-	Send(*Mail) ([]string, error)
+// MailClient interface
+type MailClient interface {
+	Send() ([]string, error)
 }
 
 // Mail struct is mailing Template
@@ -29,6 +29,6 @@ type Destination struct {
 }
 
 // SendMail function passes the interface to respective Client's Send() function
-func (m *Mail) SendMail(client MailAgent) ([]string, error) {
-	return client.Send(m)
+func (m *Mail) SendMail(client MailClient) ([]string, error) {
+	return client.Send()
 }
