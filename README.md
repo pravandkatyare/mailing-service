@@ -1,7 +1,7 @@
 # Mailing-service
 
-[![Go Report Card](https://goreportcard.com/badge/github.com/pravandkatyare/go-grpc-examples)](https://goreportcard.com/report/github.com/pravandkatyare/go-grpc-examples)
-[![MIT License](https://img.shields.io/github/license/pravandkatyare/go-grpc-examples?style=social)](./LICENSE)
+[![Go Report Card](https://goreportcard.com/badge/github.com/pravandkatyare/mailing-service)](https://goreportcard.com/report/github.com/pravandkatyare/mailing-service)
+[![MIT License](https://img.shields.io/github/license/pravandkatyare/mailing-service?style=social)](./LICENSE)
 
 This repository contains business logic, service endpoints and build configuration for the Mailing Service.
 
