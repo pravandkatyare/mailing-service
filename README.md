@@ -93,3 +93,11 @@ either be set in `application.yml` file or exported as environment variables(rec
 
 * `MAILJET_PUBLIC_API` -  provided by MailJet for accessing their service API
 * `MAILJET_PRIVATE_API` -  provided by MailJet for accessing their service API
+
+
+# Maintainers
+[Pravand Katyare](https://www.linkedin.com/in/pravand-katyare/)
+
+
+## License
+[MIT](License) @Pravand Katyare
