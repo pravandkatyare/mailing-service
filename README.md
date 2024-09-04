@@ -78,7 +78,7 @@ mkdir -p src/github.com/ && \
 
 git clone https://github.com/pravandkatyare/mailing-service.git ~/go/src/github.com/pravandkatyare/mailing-service
 
-cd ~/go/src/github.com/pravandkatyare/movieManagement
+cd ~/go/src/github.com/pravandkatyare/mailing-service
 make build 
 ```
 ```
